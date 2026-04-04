@@ -9,14 +9,14 @@ load_dotenv()
 
 
 class RouteQuery(BaseModel):
-    """Route a user questions to the most relevant area. vectordb or tavily web search"""
 
+    # Route a user questions to the most relevant area. vectordb or tavily web search
     datasource: Literal["vectorstore", "websearch"] = Field(
         ...,
         description="Given a user question choose to route it to web search or a vectorstore.",
     )
 
-""" temperature = 0 -> Information-driven, sharp answers """
+# temperature = 0 -> Information-driven, sharp answers
 llm = ChatOpenAI(temperature=0)
 structured_llm_router = llm.with_structured_output(RouteQuery)
 

@@ -10,8 +10,8 @@ llm = ChatOpenAI(temperature=0)
 
 
 class GradeDocuments(BaseModel):
-    """Binary score for relevance check on retrieved documents."""
 
+    #Binary score for relevance check on retrieved documents.
     binary_score: str = Field(
         description="Documents are relevant to the question, 'yes' or 'no'"
     )
