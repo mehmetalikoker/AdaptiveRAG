@@ -98,6 +98,7 @@ workflow.add_conditional_edges(
 workflow.add_edge(WEBSEARCH, GENERATE)
 workflow.add_edge(GENERATE, END)
 
+
 app = workflow.compile()
 
 #app.get_graph().draw_mermaid_png(output_file_path="graph.png")

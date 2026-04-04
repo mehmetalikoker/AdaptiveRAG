@@ -1,11 +1,9 @@
 from dotenv import load_dotenv
+from graph.graph import app
 
 load_dotenv()
 
-def print_hi(name):
-    print(f'Hi, {name}')
-
 
 if __name__ == '__main__':
-    print_hi('hi')
+    print(app.invoke(input={"question":"what is your name"}))
 
