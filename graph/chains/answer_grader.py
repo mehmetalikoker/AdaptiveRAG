@@ -9,7 +9,7 @@ class GradeAnswer(BaseModel):
         description="Answer addresses the question, 'yes' or 'no'"
     )
 
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatOpenAI(model="gpt-5", temperature=0)
 structured_llm_grader = llm.with_structured_output(GradeAnswer)
 
 system = """You are a grader assessing whether an answer addresses / resolves a question \n 
