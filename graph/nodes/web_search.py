@@ -9,7 +9,7 @@ web_search_tool = TavilySearchResults(k=2)
 
 
 def web_search(state: GraphState) -> Dict[str, Any]:
-    print("WEB SEARCH")
+    print("WEB SEARCH STARTING")
     question = state.get("question")
     documents = state.get("documents")
 
