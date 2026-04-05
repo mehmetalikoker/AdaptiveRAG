@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00d1ff"        # Turkuaz/Mavi vurgu rengi
+backgroundColor = "#0e1117"     # Koyu arka plan
+secondaryBackgroundColor = "#1a1c24" # Menü ve giriş kutusu rengi
+textColor = "#fafafa"           # Beyaz yazı
+font = "sans serif"
