@@ -1,9 +1,9 @@
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from langchain_core.runnables import RunnableSequence
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 
 class GradeHallucinations(BaseModel):

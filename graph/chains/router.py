@@ -1,7 +1,7 @@
 from typing import Literal
 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
@@ -17,7 +17,7 @@ class RouteQuery(BaseModel):
     )
 
 # temperature = 0 -> Information-driven, sharp answers
-llm = ChatOpenAI(temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 structured_llm_router = llm.with_structured_output(RouteQuery)
 
 system = """You are an expert at routing a user question to a vectorstore or web search.
