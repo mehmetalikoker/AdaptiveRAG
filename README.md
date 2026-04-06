@@ -37,7 +37,7 @@ The project includes a user-friendly web interface built with Streamlit, allowin
 - https://github.com/langchain-ai/langgraph - For langgraph framework usage and details
 
 
-## Installation
+## 🖥️ Installation
 1) Clone the repository:
 
 ```bash
