@@ -31,7 +31,7 @@ The project includes a user-friendly web interface built with Streamlit, allowin
 
 
 
-## Documentation
+## 📖 Documentation
 
 - https://docs.langchain.com/oss/python/langgraph/overview – Comprehensive documentation, including conceptual overviews and guides
 - https://github.com/langchain-ai/langgraph - For langgraph framework usage and details
@@ -56,7 +56,7 @@ git clone https://github.com/mehmetalikoker/adaptive-rag.git
 
 
 
-## How It Works
+## 🖥️ How It Works
 Running the class via terminal is sufficient.
 
  ```bash
@@ -64,12 +64,12 @@ For the UI version
 - Terminal -> streamlit run app.py
  ```
 
-## 🖥️ How Does It Look
+## 🎨 How Does It Look
 
 <img width="1392" height="906" alt="Ekran görüntüsü 2026-04-05 180811" src="https://github.com/user-attachments/assets/81159018-598b-4180-95d6-cc124bac8078" />
 
 
-## 🖥️ Execution Flow & Backend Logs
+## 🎨 Execution Flow & Backend Logs
 To understand how the Adaptive Router makes decisions and how the iterative retrieval process works, you can monitor the backend logs in your terminal.
 
 <img width="1304" height="422" alt="Ekran görüntüsü 2026-04-06 100739" src="https://github.com/user-attachments/assets/05d223ba-e46e-4a7b-993d-4c7611fc39cc" />
