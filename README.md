@@ -36,6 +36,7 @@ The project includes a user-friendly web interface built with Streamlit, allowin
 
 - https://docs.langchain.com/oss/python/langgraph/overview – Comprehensive documentation, including conceptual overviews and guides
 - https://github.com/langchain-ai/langgraph - For langgraph framework usage and details
+- https://docs.pytest.org/en/stable/ - For Test Infrastructure framework
 
 
 ## 🖥️ Installation
