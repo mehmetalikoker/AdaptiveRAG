@@ -21,6 +21,7 @@ Standard RAG systems often treat every query with the same retrieval logic, whic
 - Language: Python 3.x
 - Trace: Langsmith
 - User Interface: Streamlit
+- Test Infrastructure: Pytest
 
 ## 🎨 User Interface
 The project includes a user-friendly web interface built with Streamlit, allowing users to interact with the Adaptive-RAG system in real-time.
@@ -63,7 +64,10 @@ Running the class via terminal is sufficient.
 For the UI version 
 - Terminal -> streamlit run app.py
  ```
-
+ ```bash
+For the test 
+- Terminal -> python -m pytest
+ ```
 ## 🎨 How Does It Look
 
 <img width="1392" height="906" alt="Ekran görüntüsü 2026-04-05 180811" src="https://github.com/user-attachments/assets/81159018-598b-4180-95d6-cc124bac8078" />
