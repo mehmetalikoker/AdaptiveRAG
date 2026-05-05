@@ -1,8 +1,9 @@
 import streamlit as st
-from graph.graph import app  # Senin mevcut graph yapın
 from dotenv import load_dotenv
 
 load_dotenv()
+
+from graph.graph import app  # Senin mevcut graph yapın
 
 # --- UI Sayfa Ayarları ---
 st.set_page_config(page_title="Adaptive RAG Assistant", page_icon="🤖", layout="centered")

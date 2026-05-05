@@ -18,6 +18,6 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-llm = ChatOpenAI(model="gpt-5", temperature=0)
+llm = ChatOpenAI(model="gpt-4o", temperature=0)
 
 generation_chain = prompt | llm | StrOutputParser()
